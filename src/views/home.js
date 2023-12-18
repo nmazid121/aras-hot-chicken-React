@@ -182,8 +182,7 @@ const Home = (props) => {
           <h2 className="home-details-heading1 heading2">Menu</h2>
           <img
             alt="pastedImage"
-            src="/external/pastedimage-wo3n-500h.png"
-            className="home-pasted-image1"
+            src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/39c17327-1be2-4c77-9f72-0461537631e0/bb7935d5-8485-42a0-9e20-4265cd2c1fa0?org_if_sml=1426827&amp;force_format=original"
           />
         </div>
       </div>

@@ -429,7 +429,7 @@
   width: 100%;
   height: auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   background-size: cover;
   justify-content: center;
   background-image: url('https://s3-alpha-sig.figma.com/img/2638/3bb1/e69b9179d66ae746232cf421a6767236?Expires=1702857600&Signature=VbEcMIJpkU0x8MV0t-msXsOhHFzBItZ2qNUAOHVBvbRImBS75f025AaF8j-aK3lCJgpGLaCUJCGVy2oAR9rstMlIOmCEMzSZm-~~G2ChHE0BmGquJT422cRcga4XvKY50I9dDcpN-2GhGya8a8QpJ8a2RVvhX6ihiC4JbBqpC3VKwjP5uyrYHzPQNpE6Ghs-xVJQg8euae5ekhEIFanUFcefG8XINNr1EcKNoCM9oeG~Kdu9Bq5TlbMXNHG1kqca6OqSvkcuU6YKfHBYfYvafVoO3CTk47IM4drzkvcCnZtbLEMFI6-UBoXOmRVB8GHZ0tOhVe8RZPBgAJiBBPBbOg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
@@ -446,7 +446,9 @@
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
   padding-bottom: 45px;
+  background-size: cover;
   justify-content: center;
+  background-image: url('https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_1200,q_auto,fl_lossy,dpr_auto,c_fill,f_auto,h_800,g_auto/yczsv4cctya70hhm0ukr');
 }
 .home-container05 {
   gap: var(--dl-space-space-twounits);
@@ -563,21 +565,13 @@
   justify-content: center;
 }
 .home-details-heading1 {
-  top: 26px;
-  left: 0px;
-  right: 0px;
   width: 111px;
-  height: 67px;
-  margin: auto;
-  position: absolute;
+  height: 63px;
   align-self: center;
   text-align: left;
   font-family: "Raleway";
   line-height: 1.6;
-}
-.home-pasted-image1 {
-  width: 776px;
-  height: 436px;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .home-pricing1 {
   flex: 0 0 auto;
