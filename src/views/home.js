@@ -179,12 +179,12 @@ const Home = (props) => {
       </div>
       <div className="home-menu">
         <div className="home-container07">
-          <img
-            alt="image"
-            src="https://lh3.googleusercontent.com/p/AF1QipMCZUVeAE3zpU_8O7Sdmx97oMINLuNJH_Be8ntt=s680-w680-h510"
-            className="home-image"
-          />
           <h2 className="home-details-heading1 heading2">Menu</h2>
+          <img
+            alt="pastedImage"
+            src="/external/pastedimage-wo3n-500h.png"
+            className="home-pasted-image1"
+          />
         </div>
       </div>
       <div className="home-pricing1"></div>
@@ -246,9 +246,23 @@ const Home = (props) => {
           </div>
         </div>
       </div>
+      <div className="home-pricing2"></div>
+      <div className="home-details2">
+        <div className="home-details3">
+          <div className="home-container09">
+            <h1 className="home-gallery-heading1 heading2">Contact Us</h1>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.8994369319644!2d-74.42951282347242!3d40.49960675059021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c7ae9b777497%3A0x6f8d2cd0af2ca9c7!2sAra&amp;#39;s%20Hot%20Chicken!5e0!3m2!1sen!2sus!4v1702762060460!5m2!1sen!2sus"
+              className="home-iframe"
+            ></iframe>
+          </div>
+        </div>
+        <div className="home-pricing3"></div>
+      </div>
+      <div className="home-pricing4"></div>
       <div className="home-footer">
         <footer className="home-footer1">
-          <div className="home-container09">
+          <div className="home-container10">
             <span className="home-logo1">FRIEDCHICKEN</span>
             <nav className="home-nav1 home-nav1">
               <span>Home</span>
@@ -259,7 +273,7 @@ const Home = (props) => {
             </nav>
           </div>
           <div className="home-separator"></div>
-          <div className="home-container10">
+          <div className="home-container11">
             <span className="home-text16">
               © 2023 Aras Hot Chicken, All Rights Reserved.
             </span>
