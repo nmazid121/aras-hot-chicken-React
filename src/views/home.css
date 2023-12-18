@@ -425,27 +425,10 @@
   height: var(--dl-size-size-xsmall);
 }
 .home-hero {
-  flex: 0 0 auto;
   width: 100%;
-  height: auto;
+  height: 521px;
   display: flex;
   align-items: center;
-  background-size: cover;
-  justify-content: center;
-  background-image: url('https://s3-alpha-sig.figma.com/img/2638/3bb1/e69b9179d66ae746232cf421a6767236?Expires=1702857600&Signature=VbEcMIJpkU0x8MV0t-msXsOhHFzBItZ2qNUAOHVBvbRImBS75f025AaF8j-aK3lCJgpGLaCUJCGVy2oAR9rstMlIOmCEMzSZm-~~G2ChHE0BmGquJT422cRcga4XvKY50I9dDcpN-2GhGya8a8QpJ8a2RVvhX6ihiC4JbBqpC3VKwjP5uyrYHzPQNpE6Ghs-xVJQg8euae5ekhEIFanUFcefG8XINNr1EcKNoCM9oeG~Kdu9Bq5TlbMXNHG1kqca6OqSvkcuU6YKfHBYfYvafVoO3CTk47IM4drzkvcCnZtbLEMFI6-UBoXOmRVB8GHZ0tOhVe8RZPBgAJiBBPBbOg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
-}
-.home-hero1 {
-  width: 100%;
-  height: 523px;
-  display: flex;
-  max-width: var(--dl-size-size-maxwidth);
-  min-height: auto;
-  align-items: center;
-  padding-top: var(--dl-space-space-sixunits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  flex-direction: column;
-  padding-bottom: 45px;
   background-size: cover;
   justify-content: center;
   background-image: url('https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_1200,q_auto,fl_lossy,dpr_auto,c_fill,f_auto,h_800,g_auto/yczsv4cctya70hhm0ukr');
@@ -809,9 +792,6 @@
   .home-burger-menu {
     display: flex;
   }
-  .home-hero1 {
-    flex-direction: column;
-  }
   .home-container05 {
     align-items: center;
     margin-right: 0px;
@@ -855,10 +835,6 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
     padding-bottom: var(--dl-space-space-oneandhalfunits);
-  }
-  .home-hero1 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
   }
   .home-hero-sub-heading {
     padding-left: var(--dl-space-space-unit);
@@ -951,12 +927,6 @@
   }
   .home-icon04 {
     fill: var(--dl-color-gray-900);
-  }
-  .home-hero1 {
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
   }
   .home-container05 {
     margin-bottom: var(--dl-space-space-unit);
