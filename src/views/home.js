@@ -26,7 +26,10 @@ const Home = (props) => {
                 <span className="home-nav2">About Us</span>
                 <span className="home-nav3">Menu</span>
                 <span className="home-nav4">Gallery</span>
-                <span className="home-nav5">Contact</span>
+                <span className="home-nav5">
+                  <span className="home-text">Contact Us</span>
+                  <br></br>
+                </span>
               </nav>
             </div>
           </div>
@@ -44,7 +47,7 @@ const Home = (props) => {
                   className="home-dropdown-arrow"
                 ></div>
                 <div className="home-container03">
-                  <span className="home-text">Order Now</span>
+                  <span className="home-text02">Order Now</span>
                 </div>
                 <div className="home-container04">
                   <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -58,7 +61,7 @@ const Home = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="home-dropdown-toggle1"
                   >
-                    <span className="home-text01">GrubHub</span>
+                    <span className="home-text03">GrubHub</span>
                   </div>
                 </li>
                 <li
@@ -69,7 +72,7 @@ const Home = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="home-dropdown-toggle2"
                   >
-                    <span className="home-text02">UberEats</span>
+                    <span className="home-text04">UberEats</span>
                   </div>
                 </li>
                 <li
@@ -80,7 +83,7 @@ const Home = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="home-dropdown-toggle3"
                   >
-                    <span className="home-text03">
+                    <span className="home-text05">
                       <span>DoorDash</span>
                       <br></br>
                     </span>
@@ -110,7 +113,7 @@ const Home = (props) => {
               <div className="home-buttons1">
                 <button className="home-door-dash button">
                   <span>
-                    <span className="home-text09">Door Dash</span>
+                    <span className="home-text11">Door Dash</span>
                     <br></br>
                   </span>
                 </button>
@@ -139,7 +142,7 @@ const Home = (props) => {
       <div className="home-hero">
         <div className="home-container05">
           <h1 className="home-hero-heading heading1">
-            <span className="home-text11">Ara&apos;s Hot Chicken</span>
+            <span className="home-text13">Ara&apos;s Hot Chicken</span>
             <br></br>
           </h1>
           <span className="home-hero-sub-heading">
@@ -151,7 +154,7 @@ const Home = (props) => {
       <div className="home-details">
         <div className="home-details1">
           <div className="home-container06">
-            <span className="home-text13 sectionTitle">
+            <span className="home-text15 sectionTitle">
               <span>AbouT US</span>
               <br></br>
             </span>
@@ -178,10 +181,21 @@ const Home = (props) => {
       <div className="home-menu">
         <div className="home-container07">
           <h2 className="home-details-heading1 heading2">Menu</h2>
-          <img
-            alt="pastedImage"
-            src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/39c17327-1be2-4c77-9f72-0461537631e0/bb7935d5-8485-42a0-9e20-4265cd2c1fa0?org_if_sml=1426827&amp;force_format=original"
-          />
+          <div className="home-container08">
+            <div className="home-container09">
+              <img
+                alt="pastedImage"
+                src="/external/pastedimage-ou9p-700w.png"
+                className="home-pasted-image1"
+              />
+            </div>
+            <div className="home-container10">
+              <img
+                alt="pastedImage"
+                src="/external/pastedimage-2vgc-600h.png"
+              />
+            </div>
+          </div>
         </div>
       </div>
       <div className="home-pricing1"></div>
@@ -191,7 +205,7 @@ const Home = (props) => {
           <span className="home-gallery-sub-heading">
             Explore our mouthwatering menu items
           </span>
-          <div className="home-container08">
+          <div className="home-container11">
             <GalleryCard3
               image_src="https://images.squarespace-cdn.com/content/v1/5cca784792441b9dfd02ed1a/b020b444-2b0a-461c-89c4-54d20dba3a2c/278508076_565011555022952_6514155776771354127_n.jpg"
               rootClassName="rootClassName"
@@ -246,32 +260,94 @@ const Home = (props) => {
       <div className="home-pricing2"></div>
       <div className="home-details2">
         <div className="home-details3">
-          <div className="home-container09">
+          <div className="home-container12">
             <h1 className="home-gallery-heading1 heading2">Contact Us</h1>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.8994369319644!2d-74.42951282347242!3d40.49960675059021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c7ae9b777497%3A0x6f8d2cd0af2ca9c7!2sAra&amp;#39;s%20Hot%20Chicken!5e0!3m2!1sen!2sus!4v1702762060460!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed/v1/view?key=AIzaSyAqjXxc7kbyMa2DFrDz3vYgsuytiW6RaSI&amp;center=40.4996314,-74.4269753&amp;zoom=20"
               className="home-iframe"
             ></iframe>
+            <div className="home-container13">
+              <div className="home-container14">
+                <h1 className="home-text18">
+                  <span>Phone Number</span>
+                  <br></br>
+                </h1>
+                <button type="button" className="home-button button">
+                  Call Now
+                </button>
+                <span className="home-text21">
+                  <br></br>
+                  <span>(732) 447-2571</span>
+                  <br></br>
+                </span>
+              </div>
+              <div className="home-container15">
+                <h1 className="home-text25">
+                  <span>Address</span>
+                  <br></br>
+                </h1>
+                <button type="button" className="home-button1 button">
+                  Get Directions
+                </button>
+                <span>
+                  <br></br>
+                  <span>323 Raritan Avenue</span>
+                  <br></br>
+                  <br></br>
+                  <span>Highland Park, NJ 08904</span>
+                  <br></br>
+                  <br></br>
+                  <span>USA</span>
+                  <br></br>
+                </span>
+              </div>
+              <div className="home-container16">
+                <h1 className="home-text38">
+                  <span>Business Hours</span>
+                  <br></br>
+                </h1>
+                <span className="home-text41">
+                  <br></br>
+                  <span>Mon: Closed</span>
+                  <br></br>
+                  <br></br>
+                  <span>Tue: 12:00 – 8:00 PM</span>
+                  <br></br>
+                  <br></br>
+                  <span>Wed: 12:00 – 8:00 PM</span>
+                  <br></br>
+                  <br></br>
+                  <span>Thu: 12:00 – 8:00 PM</span>
+                  <br></br>
+                  <br></br>
+                  <span>Fri: 3:00 – 10:00 PM</span>
+                  <br></br>
+                  <br></br>
+                  <span>Sat: 12:00 – 9:00 PM</span>
+                  <br></br>
+                  <br></br>
+                  <span>Sun: 12:00 – 8:00 PM</span>
+                </span>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="home-pricing3"></div>
       </div>
-      <div className="home-pricing4"></div>
+      <div className="home-pricing3"></div>
       <div className="home-footer">
         <footer className="home-footer1">
-          <div className="home-container10">
-            <span className="home-logo1">FRIEDCHICKEN</span>
+          <div className="home-container17">
             <nav className="home-nav1 home-nav1">
               <span>Home</span>
               <span className="home-nav21">Menu</span>
               <span className="home-nav31">Locations</span>
               <span className="home-nav41">About Us</span>
-              <span className="home-nav51">Contact</span>
+              <span className="home-nav51">Contact Us</span>
             </nav>
           </div>
           <div className="home-separator"></div>
-          <div className="home-container11">
-            <span className="home-text16">
+          <div className="home-container18">
+            <span className="home-text62">
               © 2023 Aras Hot Chicken, All Rights Reserved.
             </span>
             <div className="home-icon-group1">
