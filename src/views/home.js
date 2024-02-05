@@ -385,7 +385,7 @@ const Home = (props) => {
           <div className="home-separator"></div>
           <div className="home-container18">
             <span className="home-text62">
-              © 2023 Aras Hot Chicken, All Rights Reserved.
+              © 2023 Aras Hot Chicken, All Rights Reserved - By Nabhan Mazid
             </span>
             <div className="home-icon-group1">
               <a
