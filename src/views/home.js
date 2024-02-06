@@ -14,118 +14,119 @@ const Home = (props) => {
       </Helmet>
       <div id="homeHeader" className="home-header">
         <header data-thq="thq-navbar" className="home-navbar-interactive">
-          <div className="home-container01">
-            <div data-thq="thq-navbar-nav" className="home-desktop-menu">
-              <img
-                alt="pastedImage"
-                src="/external/pastedimage-047-400h.png"
-                className="home-pasted-image"
-              />
-              <nav className="home-links">
-                <div className="home-container02"></div>
-                <a href="#aboutUs" className="home-nav2">
-                  About Us
-                </a>
-                <a href="#menu" className="home-nav3">
-                  Menu
-                </a>
-                <a href="#gallery" className="home-nav4">
-                  Gallery
-                </a>
-                <a href="#contactUs" className="home-nav5">
-                  <span className="home-text">Contact Us</span>
-                  <br></br>
-                </a>
-              </nav>
-            </div>
-          </div>
-          <div className="home-buttons">
-            <div
-              data-thq="thq-dropdown"
-              className="home-thq-dropdown list-item"
-            >
+          <div data-thq="thq-navbar-nav" className="home-desktop-menu">
+            <img
+              alt="pastedImage"
+              src="/external/pastedimage-047-400w.png"
+              className="home-pasted-image"
+            />
+            <nav className="home-links">
+              <a href="#aboutUs" className="home-nav2">
+                About Us
+              </a>
+              <a href="#menu" className="home-nav3">
+                Menu
+              </a>
+              <a href="#gallery" className="home-nav4">
+                Gallery
+              </a>
+              <a href="#contactUs" className="home-nav5">
+                <span className="home-text">Contact Us</span>
+                <br></br>
+              </a>
+            </nav>
+            <div className="home-buttons">
               <div
-                data-thq="thq-dropdown-toggle"
-                className="home-dropdown-toggle"
+                data-thq="thq-dropdown"
+                className="home-thq-dropdown list-item"
               >
                 <div
-                  data-thq="thq-dropdown-arrow"
-                  className="home-dropdown-arrow"
-                ></div>
-                <div className="home-container03">
-                  <span className="home-text02">Order Now</span>
+                  data-thq="thq-dropdown-toggle"
+                  className="home-dropdown-toggle"
+                >
+                  <div
+                    data-thq="thq-dropdown-arrow"
+                    className="home-dropdown-arrow"
+                  ></div>
+                  <div className="home-container01">
+                    <span className="home-text02">Order Now</span>
+                  </div>
+                  <div className="home-container02">
+                    <svg viewBox="0 0 1024 1024" className="home-icon">
+                      <path d="M426 726v-428l214 214z"></path>
+                    </svg>
+                  </div>
                 </div>
-                <div className="home-container04">
-                  <svg viewBox="0 0 1024 1024" className="home-icon">
-                    <path d="M426 726v-428l214 214z"></path>
-                  </svg>
-                </div>
+                <ul data-thq="thq-dropdown-list" className="home-dropdown-list">
+                  <li
+                    data-thq="thq-dropdown"
+                    className="home-dropdown list-item"
+                  >
+                    <a
+                      href="https://www.grubhub.com/restaurant/aras-hot-chicken-323-raritan-ave-highland-park/5610600"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="home-dropdown-toggle1"
+                      >
+                        <span className="home-text03">GrubHub</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
+                    className="home-dropdown1 list-item"
+                  >
+                    <a
+                      href="https://www.ubereats.com/store/aras-hot-chicken/49TfWelISeq7DOtELwOBBA?diningMode=DELIVERY&amp;ps=1&amp;sc=SEARCH_SUGGESTION"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="home-dropdown-toggle2"
+                      >
+                        <span className="home-text04">UberEats</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
+                    className="home-dropdown2 list-item"
+                  >
+                    <a
+                      href="https://www.doordash.com/store/ara's-hot-chicken-highland-park-25116380/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="home-dropdown-toggle3"
+                      >
+                        <span className="home-text05">
+                          <span>DoorDash</span>
+                          <br></br>
+                        </span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <ul data-thq="thq-dropdown-list" className="home-dropdown-list">
-                <li data-thq="thq-dropdown" className="home-dropdown list-item">
-                  <a
-                    href="https://www.grubhub.com/restaurant/aras-hot-chicken-323-raritan-ave-highland-park/5610600"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <div
-                      data-thq="thq-dropdown-toggle"
-                      className="home-dropdown-toggle1"
-                    >
-                      <span className="home-text03">GrubHub</span>
-                    </div>
-                  </a>
-                </li>
-                <li
-                  data-thq="thq-dropdown"
-                  className="home-dropdown1 list-item"
-                >
-                  <a
-                    href="https://www.ubereats.com/store/aras-hot-chicken/49TfWelISeq7DOtELwOBBA?diningMode=DELIVERY&amp;ps=1&amp;sc=SEARCH_SUGGESTION"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <div
-                      data-thq="thq-dropdown-toggle"
-                      className="home-dropdown-toggle2"
-                    >
-                      <span className="home-text04">UberEats</span>
-                    </div>
-                  </a>
-                </li>
-                <li
-                  data-thq="thq-dropdown"
-                  className="home-dropdown2 list-item"
-                >
-                  <a
-                    href="https://www.doordash.com/store/ara's-hot-chicken-highland-park-25116380/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <div
-                      data-thq="thq-dropdown-toggle"
-                      className="home-dropdown-toggle3"
-                    >
-                      <span className="home-text05">
-                        <span>DoorDash</span>
-                        <br></br>
-                      </span>
-                    </div>
-                  </a>
-                </li>
-              </ul>
             </div>
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon02">
-              <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+              <path d="M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"></path>
             </svg>
+            <span className="home-aras">Aras Hot Chicken</span>
           </div>
           <div data-thq="thq-mobile-menu" className="home-mobile-menu">
             <div className="home-nav">
               <div className="home-top">
                 <span className="home-logo">
-                  <span>ORDER OPTIONS</span>
+                  <span>ARAS HOT CHICKEN</span>
                   <br></br>
                 </span>
                 <div data-thq="thq-close-menu" className="home-close-menu">
@@ -135,18 +136,28 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-buttons1">
-                <button className="home-door-dash button">
+                <button className="home-about-us-mobile button">
                   <span>
-                    <span className="home-text11">Door Dash</span>
+                    <span>About Us</span>
                     <br></br>
                   </span>
                 </button>
               </div>
               <div className="home-buttons2">
-                <button className="home-register button">Uber Eats</button>
+                <button className="home-menu button">
+                  <span>
+                    <span className="home-text13">Menu</span>
+                    <br></br>
+                  </span>
+                </button>
               </div>
               <div className="home-buttons3">
-                <button className="home-register1 button">Grub Hub</button>
+                <button className="home-gallery button">
+                  <span>
+                    <span className="home-text16">Gallery</span>
+                    <br></br>
+                  </span>
+                </button>
               </div>
             </div>
             <div>
@@ -164,9 +175,9 @@ const Home = (props) => {
         </header>
       </div>
       <div className="home-hero">
-        <div className="home-container05">
+        <div className="home-container03">
           <h1 className="home-hero-heading heading1">
-            <span className="home-text13">Ara&apos;s Hot Chicken</span>
+            <span className="home-text18">Ara&apos;s Hot Chicken</span>
             <br></br>
           </h1>
           <span className="home-hero-sub-heading">
@@ -177,8 +188,8 @@ const Home = (props) => {
       </div>
       <div id="aboutUs" className="home-details">
         <div className="home-details1">
-          <div className="home-container06">
-            <span className="home-text15 sectionTitle">
+          <div className="home-container04">
+            <span className="home-text20 sectionTitle">
               <span>AbouT US</span>
               <br></br>
             </span>
@@ -200,82 +211,83 @@ const Home = (props) => {
             className="home-details-image"
           />
         </div>
-        <div className="home-pricing"></div>
       </div>
-      <div className="home-menu">
-        <div id="menu" className="home-container07">
+      <div className="home-pricing"></div>
+      <div className="home-menu1">
+        <div id="menu" className="home-container05">
           <h2 className="home-details-heading1 heading2">Menu</h2>
-          <div className="home-container08">
-            <div className="home-container09">
+          <div className="home-container06">
+            <div className="home-container07">
               <img
                 alt="pastedImage"
                 src="/external/pastedimage-ou9p-700w.png"
                 className="home-pasted-image1"
               />
             </div>
-            <div className="home-container10">
+            <div className="home-container08">
               <img
                 alt="pastedImage"
-                src="/external/pastedimage-2vgc-600h.png"
+                src="/external/pastedimage-2vgc-700h.png"
+                className="home-pasted-image2"
               />
             </div>
           </div>
         </div>
       </div>
       <div className="home-pricing1"></div>
-      <div id="gallery" className="home-gallery">
-        <div className="home-gallery1">
+      <div id="gallery" className="home-gallery1">
+        <div className="home-gallery2">
           <h1 className="home-gallery-heading heading2">Gallery</h1>
           <span className="home-gallery-sub-heading">
             Explore our mouthwatering menu items
           </span>
-          <div className="home-container11">
+          <div className="home-container09">
             <GalleryCard3
-              image_src="https://images.squarespace-cdn.com/content/v1/5cca784792441b9dfd02ed1a/b020b444-2b0a-461c-89c4-54d20dba3a2c/278508076_565011555022952_6514155776771354127_n.jpg"
+              imageSrc="https://images.squarespace-cdn.com/content/v1/5cca784792441b9dfd02ed1a/b020b444-2b0a-461c-89c4-54d20dba3a2c/278508076_565011555022952_6514155776771354127_n.jpg"
               rootClassName="rootClassName"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.squarespace-cdn.com/content/v1/5cca784792441b9dfd02ed1a/9e6b2dba-de6e-4b8b-9197-2247d5d1e1f6/280154677_670371410699744_7330714879611317867_n.jpg"
+              imageSrc="https://images.squarespace-cdn.com/content/v1/5cca784792441b9dfd02ed1a/9e6b2dba-de6e-4b8b-9197-2247d5d1e1f6/280154677_670371410699744_7330714879611317867_n.jpg"
               rootClassName="rootClassName1"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130/vyuyf4fop6yoamdwy38w"
+              imageSrc="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130/vyuyf4fop6yoamdwy38w"
               rootClassName="rootClassName3"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130/yhydvanmiqod37n8ug9p"
+              imageSrc="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130/yhydvanmiqod37n8ug9p"
               rootClassName="rootClassName2"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://img.cdn4dd.com/p/fit=cover,width=1200,height=1200,format=auto,quality=90/media/photosV2/0432beb7-7183-47d7-85ab-90bf46428fb1-retina-large.jpg"
+              imageSrc="https://img.cdn4dd.com/p/fit=cover,width=1200,height=1200,format=auto,quality=90/media/photosV2/0432beb7-7183-47d7-85ab-90bf46428fb1-retina-large.jpg"
               rootClassName="rootClassName4"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130/cjlzxmrof8s4bbqkpvzb"
+              imageSrc="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130/cjlzxmrof8s4bbqkpvzb"
               rootClassName="rootClassName5"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://lh3.googleusercontent.com/p/AF1QipMETHjTdcsurhmUtCQJU-EB-iqbd3VUHDLpZILx=s1360-w1360-h1020"
+              imageSrc="https://lh3.googleusercontent.com/p/AF1QipMETHjTdcsurhmUtCQJU-EB-iqbd3VUHDLpZILx=s1360-w1360-h1020"
               rootClassName="rootClassName6"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://lh3.googleusercontent.com/p/AF1QipOMI3OalbKzRPW9qA2fk5_PoWXVmhZxzXkLi21Q=s1360-w1360-h1020"
+              imageSrc="https://lh3.googleusercontent.com/p/AF1QipOMI3OalbKzRPW9qA2fk5_PoWXVmhZxzXkLi21Q=s1360-w1360-h1020"
               rootClassName="rootClassName7"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://lh3.googleusercontent.com/p/AF1QipMaYQ25nPj9uv0US47-3EN4_1r8FOAULCW0QMjG=s1360-w1360-h1020"
+              imageSrc="https://lh3.googleusercontent.com/p/AF1QipMaYQ25nPj9uv0US47-3EN4_1r8FOAULCW0QMjG=s1360-w1360-h1020"
               rootClassName="rootClassName8"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://lh3.googleusercontent.com/p/AF1QipPztg7PUQkqE-C7t3OM32bD_wzmdjstgt0pk06T=s1360-w1360-h1020"
+              imageSrc="https://lh3.googleusercontent.com/p/AF1QipPztg7PUQkqE-C7t3OM32bD_wzmdjstgt0pk06T=s1360-w1360-h1020"
               rootClassName="rootClassName9"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://lh3.googleusercontent.com/p/AF1QipPhB2Vu_Uk_j6QUZWx87djcdXA8BqDth8wZw00V=s1360-w1360-h1020"
+              imageSrc="https://lh3.googleusercontent.com/p/AF1QipPhB2Vu_Uk_j6QUZWx87djcdXA8BqDth8wZw00V=s1360-w1360-h1020"
               rootClassName="rootClassName10"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://lh3.googleusercontent.com/p/AF1QipNbwkAmKtd5Goz9A6OI5AoCMt6NedMIJoifBmLv=s1360-w1360-h1020"
+              imageSrc="https://lh3.googleusercontent.com/p/AF1QipNbwkAmKtd5Goz9A6OI5AoCMt6NedMIJoifBmLv=s1360-w1360-h1020"
               rootClassName="rootClassName11"
             ></GalleryCard3>
           </div>
@@ -284,29 +296,29 @@ const Home = (props) => {
       <div className="home-pricing2"></div>
       <div id="contactUs" className="home-details2">
         <div className="home-details3">
-          <div className="home-container12">
+          <div className="home-container10">
             <h1 className="home-gallery-heading1 heading2">Contact Us</h1>
             <iframe
               src="https://www.google.com/maps/embed/v1/view?key=AIzaSyAqjXxc7kbyMa2DFrDz3vYgsuytiW6RaSI&amp;center=40.4996314,-74.4269753&amp;zoom=20"
               className="home-iframe"
             ></iframe>
-            <div className="home-container13">
-              <div className="home-container14">
-                <h1 className="home-text18">
+            <div className="home-container11">
+              <div className="home-container12">
+                <h1 className="home-text23">
                   <span>Phone Number</span>
                   <br></br>
                 </h1>
                 <button type="button" className="home-button button">
                   Call Now
                 </button>
-                <span className="home-text21">
+                <span className="home-text26">
                   <br></br>
                   <span>(732) 447-2571</span>
                   <br></br>
                 </span>
               </div>
-              <div className="home-container15">
-                <h1 className="home-text25">
+              <div className="home-container13">
+                <h1 className="home-text30">
                   <span>Address</span>
                   <br></br>
                 </h1>
@@ -330,12 +342,12 @@ const Home = (props) => {
                   <br></br>
                 </span>
               </div>
-              <div className="home-container16">
-                <h1 className="home-text38">
+              <div className="home-container14">
+                <h1 className="home-text43">
                   <span>Business Hours</span>
                   <br></br>
                 </h1>
-                <span className="home-text41">
+                <span className="home-text46">
                   <br></br>
                   <span>Mon: Closed</span>
                   <br></br>
@@ -365,7 +377,7 @@ const Home = (props) => {
       <div className="home-pricing3"></div>
       <div className="home-footer">
         <footer className="home-footer1">
-          <div className="home-container17">
+          <div className="home-container15">
             <nav className="home-nav1 home-nav1">
               <a href="#homeHeader">Home</a>
               <a href="#aboutUs" className="home-nav21">
@@ -383,9 +395,14 @@ const Home = (props) => {
             </nav>
           </div>
           <div className="home-separator"></div>
-          <div className="home-container18">
-            <span className="home-text62">
-              © 2023 Aras Hot Chicken, All Rights Reserved - By Nabhan Mazid
+          <div className="home-container16">
+            <span className="home-text67">
+              <span className="home-text68">
+                © 2023 Aras Hot Chicken, All Rights Reserved.
+              </span>
+              <br></br>
+              <span>By Nabhan Mazid</span>
+              <br></br>
             </span>
             <div className="home-icon-group1">
               <a

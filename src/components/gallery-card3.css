@@ -42,3 +42,47 @@
 
 
 
+@media(max-width: 479px) {
+  .gallery-card3-gallery-card {
+    width: 181px;
+    height: 136px;
+    align-items: flex-start;
+  }
+  .gallery-card3-image {
+    left: 3px;
+    width: 173px;
+    bottom: 4px;
+    height: 125px;
+  }
+  .gallery-card3-root-class-name {
+    top: 1px;
+    right: 1px;
+    width: 200px;
+    position: absolute;
+  }
+  .gallery-card3-root-class-name2 {
+    right: 21px;
+    bottom: 3px;
+    position: absolute;
+  }
+  .gallery-card3-root-class-name3 {
+    top: 152px;
+    right: 20px;
+    position: absolute;
+  }
+  .gallery-card3-root-class-name6 {
+    top: 305px;
+    right: 21px;
+    position: absolute;
+  }
+  .gallery-card3-root-class-name7 {
+    top: 457px;
+    right: 22px;
+    position: absolute;
+  }
+  .gallery-card3-root-class-name10 {
+    top: 617px;
+    right: 23px;
+    position: absolute;
+  }
+}
