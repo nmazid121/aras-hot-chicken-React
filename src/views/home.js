@@ -14,12 +14,12 @@ const Home = (props) => {
       </Helmet>
       <div id="homeHeader" className="home-header">
         <header data-thq="thq-navbar" className="home-navbar-interactive">
+          <img
+            alt="pastedImage"
+            src="/external/pastedimage-047-400w.png"
+            className="home-pasted-image"
+          />
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
-            <img
-              alt="pastedImage"
-              src="/external/pastedimage-047-400w.png"
-              className="home-pasted-image"
-            />
             <nav className="home-links">
               <a href="#aboutUs" className="home-nav2">
                 About Us
@@ -120,7 +120,6 @@ const Home = (props) => {
             <svg viewBox="0 0 1024 1024" className="home-icon02">
               <path d="M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"></path>
             </svg>
-            <span className="home-aras">Aras Hot Chicken</span>
           </div>
           <div data-thq="thq-mobile-menu" className="home-mobile-menu">
             <div className="home-nav">
@@ -227,7 +226,7 @@ const Home = (props) => {
             <div className="home-container08">
               <img
                 alt="pastedImage"
-                src="/external/pastedimage-2vgc-700h.png"
+                src="/external/pastedimage-2vgc-600h.png"
                 className="home-pasted-image2"
               />
             </div>
@@ -247,16 +246,16 @@ const Home = (props) => {
               rootClassName="rootClassName"
             ></GalleryCard3>
             <GalleryCard3
-              imageSrc="https://images.squarespace-cdn.com/content/v1/5cca784792441b9dfd02ed1a/9e6b2dba-de6e-4b8b-9197-2247d5d1e1f6/280154677_670371410699744_7330714879611317867_n.jpg"
-              rootClassName="rootClassName1"
-            ></GalleryCard3>
-            <GalleryCard3
               imageSrc="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130/vyuyf4fop6yoamdwy38w"
               rootClassName="rootClassName3"
             ></GalleryCard3>
             <GalleryCard3
               imageSrc="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_130/yhydvanmiqod37n8ug9p"
               rootClassName="rootClassName2"
+            ></GalleryCard3>
+            <GalleryCard3
+              imageSrc="https://images.squarespace-cdn.com/content/v1/5cca784792441b9dfd02ed1a/9e6b2dba-de6e-4b8b-9197-2247d5d1e1f6/280154677_670371410699744_7330714879611317867_n.jpg"
+              rootClassName="rootClassName1"
             ></GalleryCard3>
             <GalleryCard3
               imageSrc="https://img.cdn4dd.com/p/fit=cover,width=1200,height=1200,format=auto,quality=90/media/photosV2/0432beb7-7183-47d7-85ab-90bf46428fb1-retina-large.jpg"
@@ -396,31 +395,39 @@ const Home = (props) => {
           </div>
           <div className="home-separator"></div>
           <div className="home-container16">
-            <span className="home-text67">
-              <span className="home-text68">
-                © 2023 Aras Hot Chicken, All Rights Reserved.
-              </span>
-              <br></br>
-              <span>By Nabhan Mazid</span>
-              <br></br>
-            </span>
-            <div className="home-icon-group1">
-              <a
-                href="https://www.instagram.com/arashotchicken/"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="home-link4"
-              >
-                <svg
-                  viewBox="0 0 877.7142857142857 1024"
-                  className="home-icon12"
-                >
-                  <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-                </svg>
-              </a>
+            <div className="home-container17">
+              <div className="home-container18">
+                <div className="home-container19">
+                  <span className="home-text67">
+                    <span className="home-text68">
+                      © 2023 Aras Hot Chicken, All Rights Reserved.
+                    </span>
+                    <br></br>
+                    <span>By Nabhan Mazid</span>
+                    <br></br>
+                  </span>
+                </div>
+              </div>
+              <div className="home-container20">
+                <div className="home-container21">
+                  <span className="home-text72"></span>
+                </div>
+              </div>
             </div>
           </div>
         </footer>
+        <div className="home-icon-group1">
+          <a
+            href="https://www.instagram.com/arashotchicken/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="home-link4"
+          >
+            <svg viewBox="0 0 877.7142857142857 1024" className="home-icon12">
+              <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+            </svg>
+          </a>
+        </div>
       </div>
     </div>
   )

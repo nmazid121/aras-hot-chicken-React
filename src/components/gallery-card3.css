@@ -55,9 +55,10 @@
     height: 125px;
   }
   .gallery-card3-root-class-name {
-    top: 1px;
-    right: 1px;
-    width: 200px;
+    top: 2px;
+    right: 0px;
+    width: 181px;
+    opacity: 0;
     position: absolute;
   }
   .gallery-card3-root-class-name2 {
@@ -68,17 +69,23 @@
   .gallery-card3-root-class-name3 {
     top: 152px;
     right: 20px;
+    opacity: 0;
     position: absolute;
   }
   .gallery-card3-root-class-name6 {
     top: 305px;
     right: 21px;
+    opacity: 0;
     position: absolute;
   }
   .gallery-card3-root-class-name7 {
     top: 457px;
     right: 22px;
+    opacity: 0;
     position: absolute;
+  }
+  .gallery-card3-root-class-name9 {
+    opacity: 0;
   }
   .gallery-card3-root-class-name10 {
     top: 617px;
