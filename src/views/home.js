@@ -197,8 +197,8 @@ const Home = (props) => {
             </h2>
             <span className="home-details-sub-heading">
               Ara&apos;s Hot Chicken is a Bangladeshi family owned and operated
-              Nashville hot chicken shop in Highland Park. Please check our
-              website frequently for updates, as well as our Instagram
+              Nashville hot chicken shop in Highland Park, New Jersey. Please
+              check our website frequently for updates, as well as our Instagram
               @arashotchicken. We put lots of love into our food. Let us know
               how we can improve or if there were any issues with your order,
               Insha&apos;Allah, we can make it right. ❤
@@ -307,9 +307,9 @@ const Home = (props) => {
                   <span>Phone Number</span>
                   <br></br>
                 </h1>
-                <a href="tel:+1-732-447-2571" class="home-link3 button">
+                <button type="button" className="home-button button">
                   Call Now
-                </a>
+                </button>
                 <span className="home-text26">
                   <br></br>
                   <span>(732) 447-2571</span>
@@ -406,11 +406,6 @@ const Home = (props) => {
                     <span>By Nabhan Mazid</span>
                     <br></br>
                   </span>
-                </div>
-              </div>
-              <div className="home-container20">
-                <div className="home-container21">
-                  <span className="home-text72"></span>
                 </div>
               </div>
             </div>
