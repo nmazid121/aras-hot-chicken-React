@@ -313,6 +313,10 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
+.home-mobile-menu.show {
+  display: block;
+}
+
 .home-nav {
   height: 251px;
   display: flex;

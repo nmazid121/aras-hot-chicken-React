@@ -1,11 +1,38 @@
-import React from 'react'
-
+import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet'
 
 import GalleryCard3 from '../components/gallery-card3'
 import './home.css'
 
 const Home = (props) => {
+
+  const [isMenuVisible, setMenuVisible] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  const toggleMenu = () => {
+    setMenuVisible(!isMenuVisible);
+  };
+
+  const closeMenu = () => {
+    setMenuVisible(false);
+  };
+ 
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+      if (window.innerWidth > 991) {
+        setMenuVisible(false);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
   return (
     <div className="home-container">
       <Helmet>
@@ -116,11 +143,12 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div data-thq="thq-burger-menu" className="home-burger-menu">
+          <div data-thq="thq-burger-menu" className="home-burger-menu" onClick={toggleMenu}>
             <svg viewBox="0 0 1024 1024" className="home-icon02">
               <path d="M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"></path>
             </svg>
           </div>
+          {windowWidth <= 991 && isMenuVisible && (
           <div data-thq="thq-mobile-menu" className="home-mobile-menu">
             <div className="home-nav">
               <div className="home-top">
@@ -128,7 +156,7 @@ const Home = (props) => {
                   <span>ARAS HOT CHICKEN</span>
                   <br></br>
                 </span>
-                <div data-thq="thq-close-menu" className="home-close-menu">
+                <div data-thq="thq-close-menu" className="home-close-menu" onClick={closeMenu}>
                   <svg viewBox="0 0 1024 1024" className="home-icon04">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                   </svg>
@@ -171,6 +199,7 @@ const Home = (props) => {
               </svg>
             </div>
           </div>
+          )}
         </header>
       </div>
       <div className="home-hero">
