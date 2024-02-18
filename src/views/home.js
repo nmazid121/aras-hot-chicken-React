@@ -143,7 +143,7 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div data-thq="thq-burger-menu" className="home-burger-menu" onClick={toggleMenu}>
+          <div data-thq="thq-burger-menu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon02">
               <path d="M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"></path>
             </svg>
@@ -156,7 +156,7 @@ const Home = (props) => {
                   <span>ARAS HOT CHICKEN</span>
                   <br></br>
                 </span>
-                <div data-thq="thq-close-menu" className="home-close-menu" onClick={closeMenu}>
+                <div data-thq="thq-close-menu" className="home-close-menu">
                   <svg viewBox="0 0 1024 1024" className="home-icon04">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                   </svg>
