@@ -336,9 +336,9 @@ const Home = (props) => {
                   <span>Phone Number</span>
                   <br></br>
                 </h1>
-                <a href="tel:+1-732-447-2571" class="home-link3 button">
+                <button type="button" className="home-button button">
                   Call Now
-                </a>
+                </button>
                 <span className="home-text26">
                   <br></br>
                   <span>(732) 447-2571</span>

@@ -748,9 +748,8 @@
   width: 180px;
   height: 48px;
   border-radius: var(--dl-radius-radius-radius8);
-  padding-bottom: var(--dl-radius-radius-radius8);
+  padding-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
-  text-align: center;
   background-color: rgb(41, 20, 119);
 }
 .home-container14 {
