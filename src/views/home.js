@@ -16,7 +16,7 @@ const Home = (props) => {
         <header data-thq="thq-navbar" className="home-navbar-interactive">
           <img
             alt="pastedImage"
-            src="/pastedimage-047-400w.png"
+            src="/external/pastedimage-047-400w.png"
             className="home-pasted-image"
           />
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
