@@ -1,38 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react'
+
 import { Helmet } from 'react-helmet'
 
 import GalleryCard3 from '../components/gallery-card3'
 import './home.css'
 
 const Home = (props) => {
-
-  const [isMenuVisible, setMenuVisible] = useState(false);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  const toggleMenu = () => {
-    setMenuVisible(!isMenuVisible);
-  };
-
-  const closeMenu = () => {
-    setMenuVisible(false);
-  };
- 
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-      if (window.innerWidth > 991) {
-        setMenuVisible(false);
-      }
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
-
   return (
     <div className="home-container">
       <Helmet>
@@ -148,7 +121,6 @@ const Home = (props) => {
               <path d="M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"></path>
             </svg>
           </div>
-          {windowWidth <= 991 && isMenuVisible && (
           <div data-thq="thq-mobile-menu" className="home-mobile-menu">
             <div className="home-nav">
               <div className="home-top">
@@ -199,7 +171,6 @@ const Home = (props) => {
               </svg>
             </div>
           </div>
-          )}
         </header>
       </div>
       <div className="home-hero">
@@ -336,9 +307,9 @@ const Home = (props) => {
                   <span>Phone Number</span>
                   <br></br>
                 </h1>
-                <button type="button" className="home-button button">
+                <a href="tel:+1-732-447-2571" class="home-link3 button">
                   Call Now
-                </button>
+                </a>
                 <span className="home-text26">
                   <br></br>
                   <span>(732) 447-2571</span>
