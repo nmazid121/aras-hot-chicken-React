@@ -1362,6 +1362,7 @@
     text-align: center;
   }
   .home-container07 {
+    width: 247px;
     height: 733px;
     position: relative;
     margin-right: 1px;
@@ -1374,6 +1375,7 @@
     position: absolute;
   }
   .home-container08 {
+    width: 447px;
     height: 286px;
     position: relative;
   }
@@ -1618,13 +1620,9 @@
     position: relative;
   }
   .home-container09 {
-    width: 198px;
-    height: 889px;
-    opacity: 1;
+    width: 372px;
+    height: 862px;
     position: relative;
-    align-self: center;
-    visibility: 0;
-    grid-template-columns: 1fr;
   }
   .home-details2 {
     height: 1592px;
