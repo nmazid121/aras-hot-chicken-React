@@ -1148,6 +1148,9 @@
     left: -2px;
     position: absolute;
   }
+  .home-desktop-menu {
+    display: none;
+  }
   .home-dropdown-toggle {
     top: -20px;
     left: -147px;
@@ -1156,6 +1159,7 @@
     display: none;
   }
   .home-burger-menu {
+    display: flex;
     position: static;
     justify-content: flex-start;
   }
@@ -1509,13 +1513,9 @@
     top: -71px;
     left: 11px;
   }
-  .home-desktop-menu {
-    display: none;
-  }
   .home-burger-menu {
     top: 9px;
     left: 16px;
-    display: flex;
   }
   .home-icon2 {
     right: 0px;
