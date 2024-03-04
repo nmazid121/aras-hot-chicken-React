@@ -17,7 +17,7 @@ const Home = (props) => {
         <header data-thq="thq-navbar" className="home-navbar-interactive">
           <img
             alt="pastedImage"
-            src="/external/pastedimage-047-400w.png"
+            src="/external/pastedimage-047-400h.png"
             className="home-pasted-image"
           />
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
@@ -35,6 +35,10 @@ const Home = (props) => {
                 <span className="home-text">Contact Us</span>
                 <br></br>
               </a>
+              <a href="#updateUs" className="home-nav6">
+                <span className="home-text02">Updates</span>
+                <br></br>
+              </a>
             </nav>
             <div className="home-buttons">
               <div
@@ -50,7 +54,7 @@ const Home = (props) => {
                     className="home-dropdown-arrow"
                   ></div>
                   <div className="home-container01">
-                    <span className="home-text02">Order Now</span>
+                    <span className="home-text04">Order Now</span>
                   </div>
                   <div className="home-container02">
                     <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -72,7 +76,7 @@ const Home = (props) => {
                         data-thq="thq-dropdown-toggle"
                         className="home-dropdown-toggle1"
                       >
-                        <span className="home-text03">GrubHub</span>
+                        <span className="home-text05">GrubHub</span>
                       </div>
                     </a>
                   </li>
@@ -89,7 +93,7 @@ const Home = (props) => {
                         data-thq="thq-dropdown-toggle"
                         className="home-dropdown-toggle2"
                       >
-                        <span className="home-text04">UberEats</span>
+                        <span className="home-text06">UberEats</span>
                       </div>
                     </a>
                   </li>
@@ -106,7 +110,7 @@ const Home = (props) => {
                         data-thq="thq-dropdown-toggle"
                         className="home-dropdown-toggle3"
                       >
-                        <span className="home-text05">
+                        <span className="home-text07">
                           <span>DoorDash</span>
                           <br></br>
                         </span>
@@ -146,7 +150,7 @@ const Home = (props) => {
               <div className="home-buttons2">
                 <a href="#menu" className="home-menu button">
                   <span>
-                    <span className="home-text13">Menu</span>
+                    <span className="home-text15">Menu</span>
                     <br></br>
                   </span>
                 </a>
@@ -154,7 +158,7 @@ const Home = (props) => {
               <div className="home-buttons3">
                 <a href="#gallery" className="home-gallery button">
                   <span>
-                    <span className="home-text16">Gallery</span>
+                    <span className="home-text18">Gallery</span>
                     <br></br>
                   </span>
                 </a>
@@ -170,7 +174,7 @@ const Home = (props) => {
               <div className="home-buttons5">
                 <a href="#gallery" className="home-contact-us button">
                   <span>
-                    <span className="home-text22">Contact Us</span>
+                    <span className="home-text24">Contact Us</span>
                     <br></br>
                   </span>
                 </a>
@@ -182,7 +186,7 @@ const Home = (props) => {
       <div className="home-hero">
         <div className="home-container03">
           <h1 className="home-hero-heading heading1">
-            <span className="home-text24">Ara&apos;s Hot Chicken</span>
+            <span className="home-text26">Ara&apos;s Hot Chicken</span>
             <br></br>
           </h1>
           <span className="home-hero-sub-heading">
@@ -194,7 +198,7 @@ const Home = (props) => {
       <div id="aboutUs" className="home-details">
         <div className="home-details1">
           <div className="home-container04">
-            <span className="home-text26 sectionTitle">
+            <span className="home-text28 sectionTitle">
               <span>AbouT US</span>
               <br></br>
             </span>
@@ -337,26 +341,26 @@ const Home = (props) => {
             ></iframe>
             <div className="home-container13">
               <div className="home-container14">
-                <h1 className="home-text29">
+                <h1 className="home-text31">
                   <span>Phone Number</span>
                   <br></br>
                 </h1>
                 <button type="button" className="home-button button">
                   Call Now
                 </button>
-                <span className="home-text32">
+                <span className="home-text34">
                   <br></br>
                   <span>(732) 447-2571</span>
                   <br></br>
                 </span>
-                <span className="home-text36">
-                  <span className="home-text37">Email</span>
+                <span className="home-text38">
+                  <span className="home-text39">Email</span>
                   <span>: arashotchicken@gmail.com</span>
                   <br></br>
                 </span>
               </div>
               <div className="home-container15">
-                <h1 className="home-text40">
+                <h1 className="home-text42">
                   <span>Address</span>
                   <br></br>
                 </h1>
@@ -381,11 +385,11 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-container16">
-                <h1 className="home-text53">
+                <h1 className="home-text55">
                   <span>Business Hours</span>
                   <br></br>
                 </h1>
-                <span className="home-text56">
+                <span className="home-text58">
                   <br></br>
                   <span>Mon: Closed</span>
                   <br></br>
@@ -443,8 +447,8 @@ const Home = (props) => {
             <div className="home-container20">
               <div className="home-container21">
                 <div className="home-container22">
-                  <span className="home-text78">
-                    <span className="home-text79">
+                  <span className="home-text80">
+                    <span className="home-text81">
                       © 2023 Aras Hot Chicken, All Rights Reserved.
                     </span>
                     <br></br>
