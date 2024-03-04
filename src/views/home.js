@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 import { Helmet } from 'react-helmet'
 
@@ -7,6 +7,10 @@ import BlogPostCard2 from '../components/blog-post-card2'
 import './home.css'
 
 const Home = (props) => {
+  useEffect(() => {
+    window.location.hash = '#homeHeader';
+  }, []);
+  
   return (
     <div className="home-container">
       <Helmet>
