@@ -1,16 +1,12 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
 import GalleryCard3 from '../components/gallery-card3'
+import BlogPostCard2 from '../components/blog-post-card2'
 import './home.css'
 
 const Home = (props) => {
-
-  useEffect(() => {
-    window.location.hash = '#homeHeader';
-  }, []);
-
   return (
     <div className="home-container">
       <Helmet>
@@ -164,9 +160,17 @@ const Home = (props) => {
                 </a>
               </div>
               <div className="home-buttons4">
-                <a href="#contactUs" className="home-contact-us button">
+                <a href="#updateUs" className="home-updates button">
                   <span>
-                    <span className="home-text19">Contact Us</span>
+                    <span>Updates</span>
+                    <br></br>
+                  </span>
+                </a>
+              </div>
+              <div className="home-buttons5">
+                <a href="#gallery" className="home-contact-us button">
+                  <span>
+                    <span className="home-text22">Contact Us</span>
                     <br></br>
                   </span>
                 </a>
@@ -178,7 +182,7 @@ const Home = (props) => {
       <div className="home-hero">
         <div className="home-container03">
           <h1 className="home-hero-heading heading1">
-            <span className="home-text21">Ara&apos;s Hot Chicken</span>
+            <span className="home-text24">Ara&apos;s Hot Chicken</span>
             <br></br>
           </h1>
           <span className="home-hero-sub-heading">
@@ -190,7 +194,7 @@ const Home = (props) => {
       <div id="aboutUs" className="home-details">
         <div className="home-details1">
           <div className="home-container04">
-            <span className="home-text23 sectionTitle">
+            <span className="home-text26 sectionTitle">
               <span>AbouT US</span>
               <br></br>
             </span>
@@ -288,38 +292,71 @@ const Home = (props) => {
               rootClassName="rootClassName10"
             ></GalleryCard3>
             <GalleryCard3
-              imageSrc="https://images.squarespace-cdn.com/content/v1/5cca784792441b9dfd02ed1a/614859cb-6c5e-4fc9-a454-8f878992b473/280335684_694627025201560_4716038788568007643_n.jpg?format=1500w"
+              imageSrc="https://lh3.googleusercontent.com/p/AF1QipNbwkAmKtd5Goz9A6OI5AoCMt6NedMIJoifBmLv=s1360-w1360-h1020"
               rootClassName="rootClassName11"
             ></GalleryCard3>
           </div>
         </div>
       </div>
       <div className="home-pricing2"></div>
+      <div id="updateUs" className="home-update-us">
+        <div className="home-update-us1">
+          <h1 className="home-gallery-heading1 heading2">Updates</h1>
+          <div className="home-blog">
+            <div className="home-container10">
+              <BlogPostCard2
+                profileSrc="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                rootClassName="rootClassName3"
+                imageSrc="https://media.istockphoto.com/id/1305026622/photo/ramadan-kareem-lantern-and-dates-fruit-with-city-light-background.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=lhfwznUVfslOZoY06stNxKkn9Ttl_jAQhpWII_QlJAc="
+                title="Ramadan Mubarak"
+                description="AssalamuAlaikum Dear Customers! Please stop by and join us to break your fasts with complimentary Dates and Water during Ramadan 2024. No purchase necessary"
+                label="Ramadan 2024"
+              ></BlogPostCard2>
+            </div>
+            <div className="home-container11">
+              <BlogPostCard2
+                profileSrc="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                rootClassName="rootClassName"
+                description="All Rutgers Students and Alumni get 10% off their order on Wednesdays with valid ID!"
+                label="Rutgers"
+                title="Rutgers Student Discount"
+                imageSrc="https://t3.ftcdn.net/jpg/03/79/71/46/360_F_379714679_q3jwi2mpNDu5F6IaA8xustwEEJIN7ojn.jpg"
+              ></BlogPostCard2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-pricing3"></div>
       <div id="contactUs" className="home-details2">
         <div className="home-details3">
-          <div className="home-container10">
-            <h1 className="home-gallery-heading1 heading2">Contact Us</h1>
+          <div className="home-container12">
+            <h1 className="home-gallery-heading2 heading2">Contact Us</h1>
             <iframe
               src="https://www.google.com/maps/embed/v1/view?key=AIzaSyAqjXxc7kbyMa2DFrDz3vYgsuytiW6RaSI&amp;center=40.4996314,-74.4269753&amp;zoom=20"
               className="home-iframe"
             ></iframe>
-            <div className="home-container11">
-              <div className="home-container12">
-                <h1 className="home-text26">
+            <div className="home-container13">
+              <div className="home-container14">
+                <h1 className="home-text29">
                   <span>Phone Number</span>
                   <br></br>
                 </h1>
                 <button type="button" className="home-button button">
                   Call Now
                 </button>
-                <span className="home-text29">
+                <span className="home-text32">
                   <br></br>
                   <span>(732) 447-2571</span>
                   <br></br>
                 </span>
+                <span className="home-text36">
+                  <span className="home-text37">Email</span>
+                  <span>: arashotchicken@gmail.com</span>
+                  <br></br>
+                </span>
               </div>
-              <div className="home-container13">
-                <h1 className="home-text33">
+              <div className="home-container15">
+                <h1 className="home-text40">
                   <span>Address</span>
                   <br></br>
                 </h1>
@@ -343,12 +380,12 @@ const Home = (props) => {
                   <br></br>
                 </span>
               </div>
-              <div className="home-container14">
-                <h1 className="home-text46">
+              <div className="home-container16">
+                <h1 className="home-text53">
                   <span>Business Hours</span>
                   <br></br>
                 </h1>
-                <span className="home-text49">
+                <span className="home-text56">
                   <br></br>
                   <span>Mon: Closed</span>
                   <br></br>
@@ -375,33 +412,39 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-pricing3"></div>
+      <div className="home-pricing4"></div>
       <div className="home-footer">
         <footer className="home-footer1">
-          <div className="home-container15">
-            <nav className="home-nav1 home-nav1">
-              <a href="#homeHeader">Home</a>
-              <a href="#aboutUs" className="home-nav21">
-                About Us
-              </a>
-              <a href="#menu" className="home-nav31">
-                Menu
-              </a>
-              <a href="#gallery" className="home-nav41">
-                Gallery
-              </a>
-              <a href="#contactUs" className="home-nav51">
-                Contact Us
-              </a>
-            </nav>
+          <div className="home-container17">
+            <div className="home-container18">
+              <nav className="home-nav1 home-nav1">
+                <a href="#homeHeader">Home</a>
+                <a href="#aboutUs" className="home-nav21">
+                  About Us
+                </a>
+                <a href="#menu" className="home-nav31">
+                  Menu
+                </a>
+                <a href="#gallery" className="home-nav41">
+                  Gallery
+                </a>
+                <a href="#updateUs" className="home-nav51">
+                  Updates
+                </a>
+                <a href="#contactUs" className="home-nav52">
+                  Contact Us
+                </a>
+              </nav>
+            </div>
+            <span>Text</span>
           </div>
           <div className="home-separator"></div>
-          <div className="home-container16">
-            <div className="home-container17">
-              <div className="home-container18">
-                <div className="home-container19">
-                  <span className="home-text70">
-                    <span className="home-text71">
+          <div className="home-container19">
+            <div className="home-container20">
+              <div className="home-container21">
+                <div className="home-container22">
+                  <span className="home-text78">
+                    <span className="home-text79">
                       © 2023 Aras Hot Chicken, All Rights Reserved.
                     </span>
                     <br></br>
@@ -424,12 +467,9 @@ const Home = (props) => {
               <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
             </svg>
           </a>
-          
         </div>
       </div>
     </div>
-
-    
   )
 }
 
