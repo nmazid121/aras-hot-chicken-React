@@ -31,12 +31,12 @@ const Home = (props) => {
               <a href="#gallery" className="home-nav4">
                 Gallery
               </a>
-              <a href="#contactUs" className="home-nav5">
-                <span className="home-text">Contact Us</span>
+              <a href="#updateUs" className="home-nav6">
+                <span className="home-text">Updates</span>
                 <br></br>
               </a>
-              <a href="#updateUs" className="home-nav6">
-                <span className="home-text02">Updates</span>
+              <a href="#contactUs" className="home-nav5">
+                <span className="home-text02">Contact Us</span>
                 <br></br>
               </a>
             </nav>
