@@ -27,32 +27,32 @@ const BlogPostCard2 = (props) => {
 }
 
 BlogPostCard2.defaultProps = {
-  imageSrc:
-    'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&ixlib=rb-1.2.1&w=1000',
   rootClassName: '',
-  imageAlt: 'image',
-  label: 'ENTERPRISE',
+  author: 'Jane Doe',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor. Lorem ipsum dolor sit amet, consectetur adipiscing ...',
+  imageSrc:
+    'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&ixlib=rb-1.2.1&w=1000',
   profileSrc:
     'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&ixlib=rb-1.2.1&h=1200',
   title: 'Yo',
   profileAlt: 'profile',
   when: '3 days ago',
-  author: 'Jane Doe',
+  imageAlt: 'image',
+  label: 'ENTERPRISE',
 }
 
 BlogPostCard2.propTypes = {
-  imageSrc: PropTypes.string,
   rootClassName: PropTypes.string,
-  imageAlt: PropTypes.string,
-  label: PropTypes.string,
+  author: PropTypes.string,
   description: PropTypes.string,
+  imageSrc: PropTypes.string,
   profileSrc: PropTypes.string,
   title: PropTypes.string,
   profileAlt: PropTypes.string,
   when: PropTypes.string,
-  author: PropTypes.string,
+  imageAlt: PropTypes.string,
+  label: PropTypes.string,
 }
 
 export default BlogPostCard2

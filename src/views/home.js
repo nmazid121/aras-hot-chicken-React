@@ -1,16 +1,12 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import GalleryCard3 from '../components/gallery-card3'
 import BlogPostCard2 from '../components/blog-post-card2'
+import GalleryCard3 from '../components/gallery-card3'
 import './home.css'
 
 const Home = (props) => {
-  useEffect(() => {
-    window.location.hash = '#homeHeader';
-  }, []);
-  
   return (
     <div className="home-container">
       <Helmet>
@@ -27,17 +23,17 @@ const Home = (props) => {
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links">
               <a href="#aboutUs" className="home-nav2">
-                About Us
+                Updates
+              </a>
+              <a href="#aboutUs" className="home-nav6">
+                <span className="home-text">About Us</span>
+                <br></br>
               </a>
               <a href="#menu" className="home-nav3">
                 Menu
               </a>
               <a href="#gallery" className="home-nav4">
                 Gallery
-              </a>
-              <a href="#updateUs" className="home-nav6">
-                <span className="home-text">Updates</span>
-                <br></br>
               </a>
               <a href="#contactUs" className="home-nav5">
                 <span className="home-text02">Contact Us</span>
@@ -144,6 +140,14 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-buttons1">
+                <a href="#updateUs" className="home-updates button">
+                  <span>
+                    <span>Updates</span>
+                    <br></br>
+                  </span>
+                </a>
+              </div>
+              <div className="home-buttons2">
                 <a href="#aboutUs" className="home-about-us-mobile button">
                   <span>
                     <span>About Us</span>
@@ -151,26 +155,18 @@ const Home = (props) => {
                   </span>
                 </a>
               </div>
-              <div className="home-buttons2">
+              <div className="home-buttons3">
                 <a href="#menu" className="home-menu button">
                   <span>
-                    <span className="home-text15">Menu</span>
-                    <br></br>
-                  </span>
-                </a>
-              </div>
-              <div className="home-buttons3">
-                <a href="#gallery" className="home-gallery button">
-                  <span>
-                    <span className="home-text18">Gallery</span>
+                    <span className="home-text18">Menu</span>
                     <br></br>
                   </span>
                 </a>
               </div>
               <div className="home-buttons4">
-                <a href="#updateUs" className="home-updates button">
+                <a href="#gallery" className="home-gallery button">
                   <span>
-                    <span>Updates</span>
+                    <span className="home-text21">Gallery</span>
                     <br></br>
                   </span>
                 </a>
@@ -199,9 +195,38 @@ const Home = (props) => {
           <div className="home-btn-group"></div>
         </div>
       </div>
+      <div className="home-pricing"></div>
+      <div id="updateUs" className="home-update-us">
+        <div className="home-update-us1">
+          <h1 className="home-gallery-heading heading2">Updates</h1>
+          <div className="home-blog">
+            <div className="home-container04">
+              <BlogPostCard2
+                label="Ramadan 2024"
+                title="Ramadan Mubarak"
+                imageSrc="https://media.istockphoto.com/id/1305026622/photo/ramadan-kareem-lantern-and-dates-fruit-with-city-light-background.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=lhfwznUVfslOZoY06stNxKkn9Ttl_jAQhpWII_QlJAc="
+                profileSrc="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                description="AssalamuAlaikum Dear Customers! Please stop by and join us to break your fasts with complimentary Dates and Water during Ramadan 2024. No purchase necessary"
+                rootClassName="rootClassName3"
+              ></BlogPostCard2>
+            </div>
+            <div className="home-container05">
+              <BlogPostCard2
+                label="Rutgers"
+                title="Rutgers Student Discount"
+                imageSrc="https://t3.ftcdn.net/jpg/03/79/71/46/360_F_379714679_q3jwi2mpNDu5F6IaA8xustwEEJIN7ojn.jpg"
+                profileSrc="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                description="All Rutgers Students and Alumni get 10% off their order on Wednesdays with valid ID!"
+                rootClassName="rootClassName"
+              ></BlogPostCard2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-pricing1"></div>
       <div id="aboutUs" className="home-details">
         <div className="home-details1">
-          <div className="home-container04">
+          <div className="home-container06">
             <span className="home-text28 sectionTitle">
               <span>AbouT US</span>
               <br></br>
@@ -225,19 +250,19 @@ const Home = (props) => {
           />
         </div>
       </div>
-      <div className="home-pricing"></div>
+      <div className="home-pricing2"></div>
       <div className="home-menu1">
-        <div id="menu" className="home-container05">
+        <div id="menu" className="home-container07">
           <h2 className="home-details-heading1 heading2">Menu</h2>
-          <div className="home-container06">
-            <div className="home-container07">
+          <div className="home-container08">
+            <div className="home-container09">
               <img
                 alt="pastedImage"
                 src="/external/pastedimage-ou9p-700w.png"
                 className="home-pasted-image1"
               />
             </div>
-            <div className="home-container08">
+            <div className="home-container10">
               <img
                 alt="pastedImage"
                 src="/external/pastedimage-2vgc-600h.png"
@@ -247,14 +272,14 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-pricing1"></div>
+      <div className="home-pricing3"></div>
       <div id="gallery" className="home-gallery1">
         <div className="home-gallery2">
-          <h1 className="home-gallery-heading heading2">Gallery</h1>
+          <h1 className="home-gallery-heading1 heading2">Gallery</h1>
           <span className="home-gallery-sub-heading">
             Explore our mouthwatering menu items
           </span>
-          <div className="home-container09">
+          <div className="home-container11">
             <GalleryCard3
               imageSrc="https://images.squarespace-cdn.com/content/v1/5cca784792441b9dfd02ed1a/b020b444-2b0a-461c-89c4-54d20dba3a2c/278508076_565011555022952_6514155776771354127_n.jpg"
               rootClassName="rootClassName"
@@ -306,35 +331,7 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-pricing2"></div>
-      <div id="updateUs" className="home-update-us">
-        <div className="home-update-us1">
-          <h1 className="home-gallery-heading1 heading2">Updates</h1>
-          <div className="home-blog">
-            <div className="home-container10">
-              <BlogPostCard2
-                profileSrc="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
-                rootClassName="rootClassName3"
-                imageSrc="https://media.istockphoto.com/id/1305026622/photo/ramadan-kareem-lantern-and-dates-fruit-with-city-light-background.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=lhfwznUVfslOZoY06stNxKkn9Ttl_jAQhpWII_QlJAc="
-                title="Ramadan Mubarak"
-                description="AssalamuAlaikum Dear Customers! Please stop by and join us to break your fasts with complimentary Dates and Water during Ramadan 2024. No purchase necessary"
-                label="Ramadan 2024"
-              ></BlogPostCard2>
-            </div>
-            <div className="home-container11">
-              <BlogPostCard2
-                profileSrc="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
-                rootClassName="rootClassName"
-                description="All Rutgers Students and Alumni get 10% off their order on Wednesdays with valid ID!"
-                label="Rutgers"
-                title="Rutgers Student Discount"
-                imageSrc="https://t3.ftcdn.net/jpg/03/79/71/46/360_F_379714679_q3jwi2mpNDu5F6IaA8xustwEEJIN7ojn.jpg"
-              ></BlogPostCard2>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="home-pricing3"></div>
+      <div className="home-pricing4"></div>
       <div id="contactUs" className="home-details2">
         <div className="home-details3">
           <div className="home-container12">
@@ -420,13 +417,16 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-pricing4"></div>
+      <div className="home-pricing5"></div>
       <div className="home-footer">
         <footer className="home-footer1">
           <div className="home-container17">
             <div className="home-container18">
               <nav className="home-nav1 home-nav1">
                 <a href="#homeHeader">Home</a>
+                <a href="#updateUs" className="home-nav61">
+                  Updates
+                </a>
                 <a href="#aboutUs" className="home-nav21">
                   About Us
                 </a>
@@ -436,10 +436,7 @@ const Home = (props) => {
                 <a href="#gallery" className="home-nav41">
                   Gallery
                 </a>
-                <a href="#updateUs" className="home-nav51">
-                  Updates
-                </a>
-                <a href="#contactUs" className="home-nav52">
+                <a href="#contactUs" className="home-nav51">
                   Contact Us
                 </a>
               </nav>
