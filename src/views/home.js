@@ -325,7 +325,7 @@ const Home = (props) => {
               rootClassName="rootClassName10"
             ></GalleryCard3>
             <GalleryCard3
-              imageSrc="https://lh3.googleusercontent.com/p/AF1QipNbwkAmKtd5Goz9A6OI5AoCMt6NedMIJoifBmLv=s1360-w1360-h1020"
+              imageSrc="https://images.squarespace-cdn.com/content/v1/5cca784792441b9dfd02ed1a/614859cb-6c5e-4fc9-a454-8f878992b473/280335684_694627025201560_4716038788568007643_n.jpg?format=1500w"
               rootClassName="rootClassName11"
             ></GalleryCard3>
           </div>
