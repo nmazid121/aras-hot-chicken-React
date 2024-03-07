@@ -22,7 +22,7 @@ const Home = (props) => {
           />
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links">
-              <a href="#aboutUs" className="home-nav2">
+              <a href="#updateUs" className="home-nav2">
                 Updates
               </a>
               <a href="#aboutUs" className="home-nav6">
