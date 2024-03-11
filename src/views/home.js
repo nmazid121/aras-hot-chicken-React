@@ -264,14 +264,14 @@ const Home = (props) => {
             <div className="home-container09">
               <img
                 alt="pastedImage"
-                src="/external/pastedimage-ou9p-700w.png"
+                src="/external/arasMenuVertical-3-11-1.png"
                 className="home-pasted-image1"
               />
             </div>
             <div className="home-container10">
               <img
                 alt="pastedImage"
-                src="/external/pastedimage-2vgc-600h.png"
+                src="/external/arasHotChicken-3-11.png"
                 className="home-pasted-image2"
               />
             </div>
