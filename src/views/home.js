@@ -263,7 +263,7 @@ const Home = (props) => {
           <div className="home-container08">
             <div className="home-container09">
               <img
-                alt="pastedImage"
+                alt="pastedImage" 
                 src="/external/arasMenuVertical-3-11-1.png"
                 className="home-pasted-image1"
               />
