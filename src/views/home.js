@@ -208,8 +208,8 @@ const Home = (props) => {
           <div className="home-blog">
             <div className="home-container04">
               <BlogPostCard2
-                label="Closed Today"
-                title="Closed Today Due to AC"
+                label="General Announcement"
+                title="Open Later on Fridays and Saturdays"
                 imageSrc="https://media.istockphoto.com/id/1305026622/photo/ramadan-kareem-lantern-and-dates-fruit-with-city-light-background.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=lhfwznUVfslOZoY06stNxKkn9Ttl_jAQhpWII_QlJAc="
                 profileSrc="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
                 description=""
