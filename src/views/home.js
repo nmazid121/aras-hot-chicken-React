@@ -20,31 +20,35 @@ const Home = (props) => {
         <meta property="og:title" content="Aras Hot Chicken" />
       </Helmet>
       <div id="homeHeader" className="home-header">
-        <header data-thq="thq-navbar" className="home-navbar-interactive">
+        <header data-thq="thq-navbar" className="home-navbar-interactive navbar-silly-wrapper">
           <img
             alt="pastedImage"
             src="/external/pastedimage-047-400h.png"
-            className="home-pasted-image"
+            className="home-pasted-image logo-goofy-spacing"
           />
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links">
-              <a href="#updateUs" className="home-nav2">
-                Updates
-              </a>
-              <a href="#aboutUs" className="home-nav6">
-                <span className="home-text">About Us</span>
-                <br></br>
-              </a>
-              <a href="#menu" className="home-nav3">
-                Menu
-              </a>
-              <a href="#gallery" className="home-nav4">
-                Gallery
-              </a>
-              <a href="#contactUs" className="home-nav5">
-                <span className="home-text02">Contact Us</span>
-                <br></br>
-              </a>
+            <a href="#aboutUs" className="home-nav6">
+            <span className="home-text">About Us</span>
+            <br></br>
+            </a>
+            <a href="#updateUs" className="home-nav2">
+            Updates
+            </a>
+            <a href="#menu" className="home-nav3">
+            Menu
+            </a>
+            <a href="#gallery" className="home-nav4">
+            Gallery
+            </a>
+            <a href="#reviews" className="home-nav4"> 
+            <span className="home-text03">Reviews</span>
+            <br></br>
+            </a>
+            <a href="#contactUs" className="home-nav5">
+            <span className="home-text02">Contact Us</span>
+            <br></br>
+            </a>
             </nav>
             <div className="home-buttons">
               <div
@@ -338,6 +342,67 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-pricing4"></div>
+      <div className="home-reviews-section">
+  <h1>Customer Reviews</h1>
+  <div className="home-review-carousel">
+    <div className="home-review-track">
+      {/* 25 Review Cards */}
+      <div className="home-review-card">"The best chicken I've ever had!" - John Doe</div>
+      <div className="home-review-card">"Amazing flavors and crispy!" - Jane Smith</div>
+      <div className="home-review-card">"Highly recommend the spicy option!" - Alex Johnson</div>
+      <div className="home-review-card">"Quick service and delicious food!" - Emily Brown</div>
+      <div className="home-review-card">"Perfect for a family dinner!" - Chris Wilson</div>
+      <div className="home-review-card">"Best chicken sandwich I've tried!" - Sarah Parker</div>
+      <div className="home-review-card">"Loved the spicy sauce!" - Michael Lee</div>
+      <div className="home-review-card">"A must-visit for chicken lovers!" - Rachel Adams</div>
+      <div className="home-review-card">"Fantastic customer service!" - Laura Bennett</div>
+      <div className="home-review-card">"Great value for the price!" - Henry Wilson</div>
+      <div className="home-review-card">"The wings are to die for!" - Megan White</div>
+      <div className="home-review-card">"Best place for spicy chicken!" - Tom Harris</div>
+      <div className="home-review-card">"Incredible sides and sauces!" - Lisa Thompson</div>
+      <div className="home-review-card">"My go-to spot for lunch!" - Brian Davis</div>
+      <div className="home-review-card">"Five stars all around!" - Jessica Taylor</div>
+      <div className="home-review-card">"Perfectly cooked chicken every time!" - David Evans</div>
+      <div className="home-review-card">"Highly recommended!" - Samantha King</div>
+      <div className="home-review-card">"The chicken is always fresh!" - Chris Baker</div>
+      <div className="home-review-card">"Great for families!" - Anna Clark</div>
+      <div className="home-review-card">"Delicious and fast service!" - James Rodriguez</div>
+      <div className="home-review-card">"Best Nashville hot chicken around!" - Emma Lewis</div>
+      <div className="home-review-card">"The spice levels are perfect!" - Jack Martinez</div>
+      <div className="home-review-card">"The food is always on point!" - Olivia Perez</div>
+      <div className="home-review-card">"Highly recommend the hot chicken sandwich!" - Ethan Young</div>
+      <div className="home-review-card">"A local gem!" - Isabella Walker</div>
+
+      {/* Duplicate the review cards for continuous scrolling */}
+      <div className="home-review-card">"The best chicken I've ever had!" - John Doe</div>
+      <div className="home-review-card">"Amazing flavors and crispy!" - Jane Smith</div>
+      <div className="home-review-card">"Highly recommend the spicy option!" - Alex Johnson</div>
+      <div className="home-review-card">"Quick service and delicious food!" - Emily Brown</div>
+      <div className="home-review-card">"Perfect for a family dinner!" - Chris Wilson</div>
+      <div className="home-review-card">"Best chicken sandwich I've tried!" - Sarah Parker</div>
+      <div className="home-review-card">"Loved the spicy sauce!" - Michael Lee</div>
+      <div className="home-review-card">"A must-visit for chicken lovers!" - Rachel Adams</div>
+      <div className="home-review-card">"Fantastic customer service!" - Laura Bennett</div>
+      <div className="home-review-card">"Great value for the price!" - Henry Wilson</div>
+      <div className="home-review-card">"The wings are to die for!" - Megan White</div>
+      <div className="home-review-card">"Best place for spicy chicken!" - Tom Harris</div>
+      <div className="home-review-card">"Incredible sides and sauces!" - Lisa Thompson</div>
+      <div className="home-review-card">"My go-to spot for lunch!" - Brian Davis</div>
+      <div className="home-review-card">"Five stars all around!" - Jessica Taylor</div>
+      <div className="home-review-card">"Perfectly cooked chicken every time!" - David Evans</div>
+      <div className="home-review-card">"Highly recommended!" - Samantha King</div>
+      <div className="home-review-card">"The chicken is always fresh!" - Chris Baker</div>
+      <div className="home-review-card">"Great for families!" - Anna Clark</div>
+      <div className="home-review-card">"Delicious and fast service!" - James Rodriguez</div>
+      <div className="home-review-card">"Best Nashville hot chicken around!" - Emma Lewis</div>
+      <div className="home-review-card">"The spice levels are perfect!" - Jack Martinez</div>
+      <div className="home-review-card">"The food is always on point!" - Olivia Perez</div>
+      <div className="home-review-card">"Highly recommend the hot chicken sandwich!" - Ethan Young</div>
+      <div className="home-review-card">"A local gem!" - Isabella Walker</div>
+    </div>
+  </div>
+</div>
+
       <div id="contactUs" className="home-details2">
         <div className="home-details3">
           <div className="home-container12">

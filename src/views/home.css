@@ -1,3 +1,69 @@
+.navbar-silly-wrapper {
+  display: flex;
+  justify-content: space-between; /* Keep the logo and order button at opposite ends */
+  align-items: center;
+  padding: 0 20px; /* Maintain padding inside the navbar */
+}
+
+.logo-goofy-spacing {
+  margin-right: 2px; /* Add space to the right of the logo */
+}
+
+.order-now-wacky-margin {
+  margin-left: 20px; /* Add space to the left of the "Order Now" button */
+}
+
+.home-reviews-section {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+  overflow: hidden;
+}
+
+.home-review-carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+.home-review-track {
+  display: flex;
+  animation: home-scroll 100s linear infinite; /* Adjusted duration for 25 cards */
+}
+
+.home-review-card {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 20px 15px; /* Added 20px margin to top and bottom */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  flex-shrink: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow: hidden; /* Ensures content stays within the card */
+  text-overflow: ellipsis; /* Adds ellipsis if the text overflows */
+  white-space: normal; /* Allows the text to wrap within the card */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers the text vertically */
+}
+
+@keyframes home-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+/* floidev css additions above */
+
 .home-container {
   width: 100%;
   display: flex;
@@ -38,6 +104,7 @@
   left: 18px;
   width: 314px;
   height: 308px;
+  right:250px;
   position: absolute;
 }
 .home-desktop-menu {
@@ -53,6 +120,7 @@
   width: 1014px;
   height: 124px;
   display: flex;
+  margin-left: 50px;
   align-self: center;
   align-items: center;
   flex-direction: row;
@@ -143,7 +211,8 @@
   width: 175px;
   height: 55px;
   display: inline-flex;
-  position: absolute;
+  position:relative;
+  margin-left:50px;
   align-items: center;
   padding-top: var(--dl-space-space-halfunit);
   padding-left: var(--dl-space-space-unit);
