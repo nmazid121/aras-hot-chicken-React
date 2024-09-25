@@ -242,7 +242,7 @@ const Home = (props) => {
               Experience the Perfect Blend of Flavor and Crispiness
             </h2>
             <span className="home-details-sub-heading">
-              Ara&apos;s Hot Chicken is a Bangladeshi family owned and operated
+              Ara&apos;s Hot Chicken is a Bangladeshi family-owned and operated
               Nashville hot chicken shop in Highland Park, New Jersey. Please
               check our website frequently for updates, as well as our Instagram
               @arashotchicken. We put lots of love into our food. Let us know
