@@ -234,26 +234,27 @@ const Home = (props) => {
         <div className="home-update-us1">
           <h1 className="home-gallery-heading heading2">Updates</h1>
           <div className="home-blog">
-            <div className="home-container05">
-              <BlogPostCard2
-                label="General Announcement"
-                title="Open Later on Fridays and Saturdays"
-                imageSrc="https://media.istockphoto.com/id/1305026622/photo/ramadan-kareem-lantern-and-dates-fruit-with-city-light-background.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=lhfwznUVfslOZoY06stNxKkn9Ttl_jAQhpWII_QlJAc="
-                profileSrc="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
-                description="Now open later—until 10 PM on Saturdays and 9 PM on Fridays—enjoy more time at Ara's Hot Chicken!"
-                rootClassName="rootClassName"
-              ></BlogPostCard2>
-            </div>
-            <div className="home-container05">
+          <div className="home-container05">
               <BlogPostCard2
                 label="Rutgers"
                 title="Rutgers Student Discount"
                 imageSrc="https://t3.ftcdn.net/jpg/03/79/71/46/360_F_379714679_q3jwi2mpNDu5F6IaA8xustwEEJIN7ojn.jpg"
                 profileSrc="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
-                description="All Rutgers Students and Alumni get 10% off their order on Wednesdays with valid ID!"
+                description="All Rutgers Students and Alumni get 10% off their order on Wednesdays and Thursdays with valid ID!"
                 rootClassName="rootClassName"
               ></BlogPostCard2>
             </div>
+            <div className="home-container04">
+              <BlogPostCard2
+                label="General Announcement"
+                title="Open Later on Fridays and Saturdays"
+                imageSrc="https://media.istockphoto.com/id/1305026622/photo/ramadan-kareem-lantern-and-dates-fruit-with-city-light-background.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=lhfwznUVfslOZoY06stNxKkn9Ttl_jAQhpWII_QlJAc="
+                profileSrc="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                description=""
+                rootClassName="rootClassName3"
+              ></BlogPostCard2>
+            </div>
+            
           </div>
         </div>
       </div>
@@ -269,7 +270,7 @@ const Home = (props) => {
               Experience the Perfect Blend of Flavor and Crispiness
             </h2>
             <span className="home-details-sub-heading">
-              Ara&apos;s Hot Chicken is a Bangladeshi family owned and operated
+              Ara&apos;s Hot Chicken is a Bangladeshi family-owned and operated
               Nashville hot chicken shop in Highland Park, New Jersey. Please
               check our website frequently for updates, as well as our Instagram
               @arashotchicken. We put lots of love into our food. Let us know
