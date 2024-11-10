@@ -73,6 +73,23 @@ const Home = (props) => {
                   </div>
                 </div>
                 <ul data-thq="thq-dropdown-list" className="home-dropdown-list">
+                <li
+                    data-thq="thq-dropdown"
+                    className="home-dropdown1 list-item"
+                  >
+                    <a
+                      href="https://aras-hot-chicken.square.site/"
+                      target="_self"
+                      rel="noreferrer noopener"
+                    >
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="home-dropdown-toggle2"
+                      >
+                        <span className="home-text06">Pickup</span>
+                      </div>
+                    </a>
+                  </li>
                   <li
                     data-thq="thq-dropdown"
                     className="home-dropdown list-item"
@@ -199,6 +216,13 @@ const Home = (props) => {
             <span className="home-text26">Ara&apos;s Hot Chicken</span>
             <br></br>
           </h1>
+          <div className="home-order-now-button">
+      <a href="https://aras-hot-chicken.square.site/" target="_self" rel="noopener noreferrer" className="home-button-link">
+        <button className="home-order-button">
+          Order Now
+        </button>
+      </a>
+    </div>
           <span className="home-hero-sub-heading">
             &quot;The Purrfect Bite Everytime&quot;
           </span>
@@ -210,14 +234,14 @@ const Home = (props) => {
         <div className="home-update-us1">
           <h1 className="home-gallery-heading heading2">Updates</h1>
           <div className="home-blog">
-            <div className="home-container04">
+            <div className="home-container05">
               <BlogPostCard2
                 label="General Announcement"
                 title="Open Later on Fridays and Saturdays"
                 imageSrc="https://media.istockphoto.com/id/1305026622/photo/ramadan-kareem-lantern-and-dates-fruit-with-city-light-background.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=lhfwznUVfslOZoY06stNxKkn9Ttl_jAQhpWII_QlJAc="
                 profileSrc="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
-                description=""
-                rootClassName="rootClassName3"
+                description="Now open later—until 10 PM on Saturdays and 9 PM on Fridays—enjoy more time at Ara's Hot Chicken!"
+                rootClassName="rootClassName"
               ></BlogPostCard2>
             </div>
             <div className="home-container05">
