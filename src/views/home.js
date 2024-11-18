@@ -500,7 +500,7 @@ const Home = (props) => {
                   <span>Thu: 12:00 – 8:00 PM</span>
                   <br></br>
                   <br></br>
-                  <span>Fri: 3:00 – 10:00 PM</span>
+                  <span>Fri: 12:00 – 10:00 PM</span>
                   <br></br>
                   <br></br>
                   <span>Sat: 12:00 – 9:00 PM</span>
