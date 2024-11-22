@@ -234,6 +234,16 @@ const Home = (props) => {
         <div className="home-update-us1">
           <h1 className="home-gallery-heading heading2">Updates</h1>
           <div className="home-blog">
+          <div className="home-container04">
+              <BlogPostCard2
+                label="Ara's Online Ordering"
+                title="Order takeout online!"
+                imageSrc="https://upload.wikimedia.org/wikipedia/commons/2/27/Square%2C_Inc_-_Square_Logo.jpg"
+                profileSrc="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                description="Enjoy the convenience of online ordering with Ara's. Now offering takeout options through our Square-powered site! Order now at https://aras-hot-chicken.square.site/"
+                rootClassName="rootClassName3"
+              ></BlogPostCard2>
+            </div>
           <div className="home-container05">
               <BlogPostCard2
                 label="Rutgers"
@@ -244,17 +254,6 @@ const Home = (props) => {
                 rootClassName="rootClassName"
               ></BlogPostCard2>
             </div>
-            <div className="home-container04">
-              <BlogPostCard2
-                label="General Announcement"
-                title="Open Later on Fridays and Saturdays"
-                imageSrc="https://media.istockphoto.com/id/1305026622/photo/ramadan-kareem-lantern-and-dates-fruit-with-city-light-background.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=lhfwznUVfslOZoY06stNxKkn9Ttl_jAQhpWII_QlJAc="
-                profileSrc="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
-                description=""
-                rootClassName="rootClassName3"
-              ></BlogPostCard2>
-            </div>
-            
           </div>
         </div>
       </div>
