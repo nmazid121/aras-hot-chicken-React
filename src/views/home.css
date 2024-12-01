@@ -1,3 +1,61 @@
+/* Container for the button and dropdown */
+.order-now-container {
+  position: relative; /* So the dropdown positions relative to this */
+  text-align: center;
+  margin-top: 10px;
+  z-index: 500;
+}
+
+/* Order Now button */
+.order-now-button {
+  background-color: #ef233c;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 500;
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+/* Dropdown menu container (hidden by default) */
+.order-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position dropdown right below the button */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px; /* Adjust width */
+  text-align: center;
+  z-index: 499;
+}
+
+/* Dropdown menu items */
+.order-dropdown-item {
+  display: block;
+  padding: 10px 15px;
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+/* Hover effect for dropdown items */
+.order-dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Show the dropdown on hover */
+.order-now-container:hover .order-dropdown-menu,
+.order-now-container:focus-within .order-dropdown-menu {
+  display: block;
+}
 .navbar-silly-wrapper {
   display: flex;
   justify-content: space-between; /* Keep the logo and order button at opposite ends */
@@ -166,6 +224,7 @@ body {
 }
 .home-header {
   width: 100%;
+  z-index: 1000;
   height: 139px;
   display: flex;
   align-items: center;
@@ -178,6 +237,7 @@ body {
 .home-navbar-interactive {
   width: 1448px;
   height: 135px;
+  z-index: 1001;
   display: flex;
   position: sticky;
   max-width: var(--dl-size-size-maxwidth);
@@ -290,6 +350,7 @@ body {
   width: 35px;
   cursor: pointer;
   height: 24px;
+  z-index: 1002;
   display: inline-block;
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
@@ -1436,7 +1497,7 @@ body {
     height: 218px;
   }
 }
-@media(max-width: 991px) {
+@media(max-width: 1605px) {
   .home-navbar-interactive {
     width: 786px;
     padding-top: var(--dl-space-space-oneandhalfunits);
@@ -2102,5 +2163,28 @@ body {
   }
   .home-icon-group {
     height: 243px;
+  }
+}
+@media (max-width: 1605px) {
+  /* Hide the desktop menu */
+  .home-desktop-menu {
+    display: none;
+  }
+
+  /* Show the burger menu */
+  .home-burger-menu {
+    display: flex; /* Use flex to align it properly */
+  }
+}
+
+@media (min-width: 1606px) {
+  /* Show the desktop menu */
+  .home-desktop-menu {
+    display: flex;
+  }
+
+  /* Hide the burger menu */
+  .home-burger-menu {
+    display: none;
   }
 }
