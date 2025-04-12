@@ -242,13 +242,14 @@ const Home = (props) => {
           <div className="home-container05">
               <BlogPostCard2
                 label="General"
-                title="Rutgers Students 10% off Everyday!"
+                title="10% off for All Rutgers Students"
                 imageSrc="https://t3.ftcdn.net/jpg/03/79/71/46/360_F_379714679_q3jwi2mpNDu5F6IaA8xustwEEJIN7ojn.jpg"
                 profileSrc="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
-                description="10% off with a Rutgers ID"
+                description="Bring a Rutgers ID for 10%  off"
                 rootClassName="rootClassName"
               ></BlogPostCard2>
             </div>
+
           </div>
         </div>
       </div>
