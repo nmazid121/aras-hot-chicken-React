@@ -1982,7 +1982,7 @@ body {
     padding-bottom: var(--dl-space-space-twounits);
   }
   .home-container05 {
-    opacity: 0;
+    opacity: 1;
   }
   .home-details {
     height: 871px;

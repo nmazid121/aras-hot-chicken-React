@@ -242,24 +242,13 @@ const Home = (props) => {
           <div className="home-container05">
               <BlogPostCard2
                 label="General"
-                title="Open on the Holidays!"
+                title="Rutgers Students 10% off Everyday!"
                 imageSrc="https://t3.ftcdn.net/jpg/03/79/71/46/360_F_379714679_q3jwi2mpNDu5F6IaA8xustwEEJIN7ojn.jpg"
                 profileSrc="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
-                description="We are open our regular hours during the holidays!"
+                description="10% off with a Rutgers ID"
                 rootClassName="rootClassName"
               ></BlogPostCard2>
             </div>
-          <div className="home-container04">
-              <BlogPostCard2
-                label="Ara's Online Ordering"
-                title="Order takeout online!"
-                imageSrc="https://upload.wikimedia.org/wikipedia/commons/2/27/Square%2C_Inc_-_Square_Logo.jpg"
-                profileSrc="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
-                description="Enjoy the convenience of online ordering with Ara's. Now offering takeout options through our Square-powered site! Order now at https://aras-hot-chicken.square.site/"
-                rootClassName="rootClassName3"
-              ></BlogPostCard2>
-            </div>
-
           </div>
         </div>
       </div>
