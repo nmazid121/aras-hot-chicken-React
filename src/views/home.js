@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 
 import BlogPostCard2 from '../components/blog-post-card2'
 import GalleryCard3 from '../components/gallery-card3'
+import ChatbotComponent from '../components/Chatbot'
 import './home.css'
 
 const Home = (props) => {
@@ -270,7 +271,7 @@ const Home = (props) => {
               check our website frequently for updates, as well as our Instagram
               @arashotchicken. We put lots of love into our food. Let us know
               how we can improve or if there were any issues with your order,
-              Insha&apos;Allah, we can make it right. ❤
+              Insha&apos;Allah, we can make it right. ❤ 
             </span>
           </div>
           <img
@@ -367,19 +368,19 @@ const Home = (props) => {
 <div className="home-review-carousel">
   <div className="home-review-track">
 
-    <div className="home-review-card">"Some of the best fried chicken I have EVER had!!!! It’s juicy, packed with flavor, the spices are perfect, just the right amount of breading, just the right amount of crunch, the loaded fries were amazing, and their house sauce compliments everything perfectly!! The owners are super awesome people as well!!! 😁" - <strong>Chad Parker</strong></div>
+    <div className="home-review-card">"Some of the best fried chicken I have EVER had!!!! It's juicy, packed with flavor, the spices are perfect, just the right amount of breading, just the right amount of crunch, the loaded fries were amazing, and their house sauce compliments everything perfectly!! The owners are super awesome people as well!!! 😁" - <strong>Chad Parker</strong></div>
     <div className="home-review-card">"ABSOLUTELY DELICIOUS FRIED CHICKEN & WAFFLES! The waffle was thick and cake-like. It was PERFECT! The chicken tenders were well seasoned, tender, and juicy! The corn bread was very good too!" - <strong>Jennifer</strong></div>
     <div className="home-review-card">"A cozy and cute café in Edison where you can have these amazing burgers and decide your spice level. The Nashville fries are great." - <strong>Asim Hussain (The Reviewer)</strong></div>
     <div className="home-review-card">"The owner was so sweet! Restaurant and bathroom were very clean. AC was nice and cold on a hot summer day. We tried the Mac and cheese which was super creamy and delicious. We had the medium spice chicken which was perfect." - <strong>Samantha Williams</strong></div>
     <div className="home-review-card">"Fresh made-to-order fried chicken with great flavor: piping/steaming hot and juicy dark meat. The wings are giant, the same size as a thigh piece!" - <strong>Kin Cheung</strong></div>
     <div className="home-review-card">"They always provide great customer service by being very attentive. The food is fresh and flavorful, without the greasiness of other places. I always get the hottest chicken sammy, which isn't as spicy as you might think." - <strong>Dre X</strong></div>
     <div className="home-review-card">"Had the loaded fries, extra spicy. Extremely amazing! Mr. Sherry served me, and he was kind and clearly made my fries with love." - <strong>Paul P</strong></div>
-    <div className="home-review-card">"The food was very delicious. Everything is cooked fresh and the chicken is very juicy and well-seasoned. The wait is a little long since everything is made fresh, but otherwise it’s a nice quaint family-owned place with great chicken and fries." - <strong>Scheheryar Rizwan</strong></div>
+    <div className="home-review-card">"The food was very delicious. Everything is cooked fresh and the chicken is very juicy and well-seasoned. The wait is a little long since everything is made fresh, but otherwise it's a nice quaint family-owned place with great chicken and fries." - <strong>Scheheryar Rizwan</strong></div>
     <div className="home-review-card">"The fried chicken combines just the right amount of crispiness and spice to go with the special sauce. The loaded fries are unbelievably good with the cut-up pieces of chicken and special sauce drizzled over them." - <strong>Youie2k</strong></div>
     <div className="home-review-card">"Food was delicious. The chicken sandwich was fresh, catered to your preferred level of spice. The staff was super friendly. The restaurant is named after a cat and there are pictures posted on the wall." - <strong>Victoria Anderson</strong></div>
-    <div className="home-review-card">"Best chicken I’ve had since I visited Nashville. Have tried so many places around NY and NJ but nothing as good as this. I usually don’t write reviews but I had to for this place. My first time getting food from there and will definitely be back." - <strong>Besi Daci</strong></div>
+    <div className="home-review-card">"Best chicken I've had since I visited Nashville. Have tried so many places around NY and NJ but nothing as good as this. I usually don't write reviews but I had to for this place. My first time getting food from there and will definitely be back." - <strong>Besi Daci</strong></div>
     <div className="home-review-card">"Omg the food was so goood! I really enjoy how fresh and good it is. I got loaded fries, a hot chicken sandwich, and cornbread 😜." - <strong>Danica</strong></div>
-    <div className="home-review-card">"O.M.G. That spicy chicken sandwich SLAPS. I needed this in my life today. Just wish I took a pic before I inhaled it. Ara’s house sauce is banging… and the best thing… the very best thing… the pictures of the manager on the wall." - <strong>Robert Finnegan</strong></div>
+    <div className="home-review-card">"O.M.G. That spicy chicken sandwich SLAPS. I needed this in my life today. Just wish I took a pic before I inhaled it. Ara's house sauce is banging… and the best thing… the very best thing… the pictures of the manager on the wall." - <strong>Robert Finnegan</strong></div>
     <div className="home-review-card">"Great spot! Food is amazing, decor is cute, and staff is friendly. What more could you ask for? We tried the wings, sammies, Mac & cheese, and coleslaw. Will be back for sure." - <strong>Rebecca! W.</strong></div>
     <div className="home-review-card">"Friendly yet calm atmosphere especially during the hot days. Food was on point but wish the chicken sandwich was a bit hotter than what the kind gal behind the counter stated it to be (not point-deducting)." - <strong>Doc Rads</strong></div>
     <div className="home-review-card">"Delicious food, friendly owner, heartwarming atmosphere. Absolute recommendation!" - <strong>Sereas</strong></div>
@@ -397,9 +398,9 @@ const Home = (props) => {
     <div className="home-review-card">"The 'Chicken Sammies' was so incredibly delicious. Would 100% without a doubt buy it again. The staff were also very nice and accommodating." - <strong>Ines Lasfar</strong></div>
     <div className="home-review-card">"Really good chicken sandwich. Made fresh. Pass on the mac and cheese. Just focus on the hot chicken sandwich." - <strong>Frank Greenagel II</strong></div>
     <div className="home-review-card">"Stepping into Ara's Hot Chicken in Highland Park is like embarking on a culinary adventure where spice meets sophistication." - <strong>Alec Choi</strong></div>
-    <div className="home-review-card">"Love this place and the food!! I like this place 10000x better than Smashville just because it’s not oily and heavy." - <strong>Life is amazing</strong></div>
+    <div className="home-review-card">"Love this place and the food!! I like this place 10000x better than Smashville just because it's not oily and heavy." - <strong>Life is amazing</strong></div>
     <div className="home-review-card">"We went with our family for chicken, and we got Chicken Sammies (sandwiches), loaded fries, and wings. The food was amazing -- the chicken was fresh." - <strong>Sara Hossain</strong></div>
-    <div className="home-review-card">"Some of the best chicken tenders I’ve ever eaten. Up there with the best of Nashville. Served with thick white bread and pickles." - <strong>Olly</strong></div>
+    <div className="home-review-card">"Some of the best chicken tenders I've ever eaten. Up there with the best of Nashville. Served with thick white bread and pickles." - <strong>Olly</strong></div>
     <div className="home-review-card">"Food was seasoned well, & the portions are also good, great halal southern-style place. Would come again." - <strong>John Haroon</strong></div>
     <div className="home-review-card">"Was not expecting anything when I ordered lunch from here, but man I am glad I ordered from here." - <strong>Abd Yousuf</strong></div>
     <div className="home-review-card">"I tried this place for the first time and had a wonderful experience. I had the Chicken Sammy sandwich. The chicken was perfectly cooked." - <strong>Ahmed Abu Mazen</strong></div>
@@ -412,7 +413,7 @@ const Home = (props) => {
     <div className="home-review-card">"What is there not to like? Staff are wonderful and kind. Chicken is very well seasoned, cooked nice, hot, and crunchy." - <strong>Ray</strong></div>
     <div className="home-review-card">"Pretty good! Next time I think I'll try the slightly spicier one though. Gouda mac was awesome, and people there were friendly." - <strong>Matthew O</strong></div>
     <div className="home-review-card">"The chicken was awesome, same with the tenders. I really like the flavor and found the hot and extra hot to be the perfect spice levels!!" - <strong>B J</strong></div>
-    <div className="home-review-card">"Few things make me happier than a trip to Ara’s. The loaded fries are so good, the staff are so kind." - <strong>Quinn Michaels</strong></div>
+    <div className="home-review-card">"Few things make me happier than a trip to Ara's. The loaded fries are so good, the staff are so kind." - <strong>Quinn Michaels</strong></div>
     <div className="home-review-card">"Very good chicken and fried cauliflower. I loved the house sauce and mac and cheese. We will definitely be back." - <strong>Samantha</strong></div>
     <div className="home-review-card">"Very friendly and helpful owners, food is amazing, actually does remind me of hot chicken I've had in Nashville." - <strong>Jimmy LeBron</strong></div>
     <div className="home-review-card">"Great, lovely place, and the chicken tasted delicious. Love their mascot. Ordered the tenders and loaded fries." - <strong>W N</strong></div>
@@ -485,22 +486,22 @@ const Home = (props) => {
                   <span>Mon: Closed</span>
                   <br></br>
                   <br></br>
-                  <span>Tue: 12:00 – 8:00 PM</span>
+                  <span>Tue: 12:00 – 8:00 PM</span>
                   <br></br>
                   <br></br>
-                  <span>Wed: 12:00 – 8:00 PM</span>
+                  <span>Wed: 12:00 – 8:00 PM</span>
                   <br></br>
                   <br></br>
-                  <span>Thu: 12:00 – 8:00 PM</span>
+                  <span>Thu: 12:00 – 8:00 PM</span>
                   <br></br>
                   <br></br>
-                  <span>Fri: 12:00 – 10:00 PM</span>
+                  <span>Fri: 12:00 – 10:00 PM</span>
                   <br></br>
                   <br></br>
-                  <span>Sat: 12:00 – 9:00 PM</span>
+                  <span>Sat: 12:00 – 9:00 PM</span>
                   <br></br>
                   <br></br>
-                  <span>Sun: 12:00 – 8:00 PM</span>
+                  <span>Sun: 12:00 – 8:00 PM</span>
                 </span>
               </div>
             </div>
@@ -564,6 +565,7 @@ const Home = (props) => {
           </a>
         </div>
       </div>
+      <ChatbotComponent />
     </div>
   )
 }
